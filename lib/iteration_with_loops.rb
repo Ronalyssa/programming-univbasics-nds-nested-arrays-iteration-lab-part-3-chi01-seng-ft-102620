@@ -12,7 +12,7 @@ def join_nested_strings(src)
        end
      nested_index += 1
      end
-     
+
   end
   array_index += 1
   new_string
