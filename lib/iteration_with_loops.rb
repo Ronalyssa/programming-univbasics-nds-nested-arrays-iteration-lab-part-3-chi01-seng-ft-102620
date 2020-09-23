@@ -10,10 +10,10 @@ def join_nested_strings(src)
        if src[array_index][nested_index].class == string
          new_string << src[array_index][nested_index] + " "
        end
-     nested_index += 1
+        nested_index += 1
      end
-
+      array_index += 1
   end
-  array_index += 1
+  
   new_string
 end
