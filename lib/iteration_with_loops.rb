@@ -8,7 +8,7 @@ def join_nested_strings(src)
      string = "string".class
      while nested_index < src[array_index].length do
        if src[array_index][nested_index].class == string
-         new_string << src[array_index][nested_index]
+         new_string << src[array_index][nested_index] + " "
        end
      nested_index +=1
      end
