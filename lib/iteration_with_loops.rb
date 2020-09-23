@@ -11,7 +11,7 @@ def join_nested_strings(src)
          new_string << src[array_index][nested_index] + " "
          nested_index += 1
        end
-        
+
      end
       array_index += 1
   end
