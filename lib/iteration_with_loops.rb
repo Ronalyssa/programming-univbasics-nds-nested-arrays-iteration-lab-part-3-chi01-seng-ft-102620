@@ -10,7 +10,8 @@ def join_nested_strings(src)
      nested_index = 0
      string = "string".class
      while nested_index < src[array_index].length do
-       if src[array_index][nested_index].class == string
+      #  if src[array_index][nested_index].class == string
+       if src[array_index][nested_index].is_a? String
          new_string << src[array_index][nested_index] + " "
        end
         nested_index += 1
