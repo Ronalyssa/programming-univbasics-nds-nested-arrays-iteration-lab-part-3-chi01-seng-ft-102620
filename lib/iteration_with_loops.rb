@@ -5,10 +5,10 @@ def join_nested_strings(src)
  while array_index < src.length do
      nested_index = 0
      new_string = ""
-     string = "string".class
+     # string = "string".class
      while nested_index < src[array_index].length do
        if src[array_index][nested_index].class == string
-         new_string << src[array_index][nested_index] + " "
+         print src[array_index][nested_index] + " "
        end
      nested_index +=1
      end
